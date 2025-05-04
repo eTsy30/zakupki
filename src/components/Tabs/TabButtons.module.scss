@@ -1,0 +1,23 @@
+@use '../../styles/variables.scss' as *;
+.tabContainer {
+  display: flex;
+  gap: 8px;
+  background-color: var(--color-violet-light);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.tabButton {
+  padding: 8px 16px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.activeTab {
+  background-color: var(--color-violet);
+  color: white;
+}
